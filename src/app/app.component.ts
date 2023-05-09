@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { BioService } from './bio.service';
 import { NgxGalleryOptions, NgxGalleryImage } from 'ngx-gallery-9';
-import * as content from '../content/landing/gallery.json';
+import gallery from '../content/landing/gallery.json';
 
 @Component({
   selector: 'app-root',
@@ -32,7 +32,7 @@ export class AppComponent {
     { breakpoint: 300, width: '100%', thumbnailsColumns: 2 }
   ];
 
-  galleryImages: NgxGalleryImage[] = content.galleryImages.map(a => new Object({ big: a, small: a, medium: a }));
+  galleryImages: NgxGalleryImage[] = gallery.galleryImages.map(a => new Object({ big: a, small: a, medium: a }));
 
 
   navigateToTab(tabSelection) {
