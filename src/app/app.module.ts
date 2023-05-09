@@ -11,7 +11,7 @@ import { EarlyLifeComponent } from './early-life/early-life.component';
 import { ScpcrComponent } from './scpcr/scpcr.component';
 import { CitizenAdsComponent } from './citizen-ads/citizen-ads.component';
 import { FamilyFriendsComponent } from './family-friends/family-friends.component';
-import { NgxGalleryModule } from 'ngx-gallery';
+import { NgxGalleryModule } from 'ngx-gallery-9';
 
 
 @Injectable()

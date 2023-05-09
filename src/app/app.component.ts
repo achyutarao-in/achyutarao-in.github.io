@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { BioService } from './bio.service';
-import { NgxGalleryOptions, NgxGalleryImage } from 'ngx-gallery';
+import { NgxGalleryOptions, NgxGalleryImage } from 'ngx-gallery-9';
 import * as content from '../content/landing/gallery.json';
 
 @Component({

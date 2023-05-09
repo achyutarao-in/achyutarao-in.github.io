@@ -142,5 +142,7 @@
       }
     }
   },
-  "defaultProject": "www.achyutarao.in"
+  "cli": {
+    "analytics": false
+  }
 }
